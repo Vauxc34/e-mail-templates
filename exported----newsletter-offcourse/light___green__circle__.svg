@@ -1,0 +1,10 @@
+<svg id="Group_2" data-name="Group 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="395.484" height="227.189" viewBox="0 0 395.484 227.189">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="227.189" height="395.484" transform="translate(0 227.189) rotate(-90)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(0)" clip-path="url(#clip-path)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="223.754" cy="223.754" r="223.754" transform="translate(-209.569 -43.731) rotate(-45)" fill="#92c9c7"/>
+  </g>
+</svg>

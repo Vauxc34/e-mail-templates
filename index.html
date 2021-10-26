@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first-template</title>
+</head>
+<style>
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .wrapper__ {
+       
+        height: 2100px;
+    }
+
+    .main__container__itself {
+
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 2200px;
+        width: 600px;
+        background: #fff;
+
+    }
+
+    .light___green__circle__ {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background: url(./exported----newsletter-offcourse/light___green__circle__.svg);
+        background-size: cover;
+        height: 228px;
+        width: 396px;
+    }
+
+    .container__of__first__component {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        top: 50px;
+        /* background: green; */
+        height: 650px;
+        width: 500px;
+    }
+
+    .container__of__bird__and__header {
+        position: relative;
+        display: flex;
+        align-self: center;
+        height: 81.5px;
+        width: 500px;
+    }
+
+    .bird__ {
+        height: 84px;
+        width: 97px;
+        background: url(./exported----newsletter-offcourse/bird__.svg);
+        background-size: cover;
+        z-index: 2;
+    }
+
+    .header__ {
+        text-align: center;
+        margin: 25px;
+    }
+
+    .container___of___image__board__and__headings {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        height: 650px;
+        width: 500px;
+    }
+
+    .image__board {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        background: #D4D5D9;
+        height: 473.52px;
+        width: 473.52px;
+    }
+
+    .breaking__text {
+        position: absolute;
+        display: block;
+        height: 470px;
+        width: 72px;
+        top: 25px;
+        left: -25px;
+        background: url(./exported----newsletter-offcourse/breaking__text.svg);
+        background-size: cover;
+    }
+
+    .news__text {
+        position: absolute;
+        display: block;
+        height: 265px;
+        width: 73px;
+        top: -47.5px;
+        right: -25px;
+        background: url(./exported----newsletter-offcourse/news__text.svg);
+        background-size: cover;
+    }
+
+    .dust__ {
+
+    }
+
+    .container__of__second__component {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        /* background: green; */
+        top: -35px;
+        height: 320px;
+        width: 100%;
+    }
+
+    .container__with__h3__span__and__a__button {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-self: center;
+        /* background: blue; */
+        height: 180px;
+        width: 80%;
+    }
+
+    .article__name {
+        align-self: center;
+        text-transform: uppercase;
+    }
+
+    .short__description__of__article {
+        display: block;
+        align-self: center;
+        text-align: center;
+    }
+
+
+    .read__more__button {
+        display: block;
+        display: flex;
+        justify-content: center;
+        height: 63px;
+        width: 145px;
+        background: #272727;
+        text-align: center;
+        text-decoration: none;
+        align-self: center;
+    }
+
+    a p {
+        align-self: center;
+        color: #fff;
+    }
+
+    .circle__container {
+        position: relative;
+        display: flex;
+        /* background: red; */
+        height: 120px;
+        width: 100%;
+    }
+
+    .yellow__blank__circle {
+        position: absolute;
+        display: block;
+        align-self: flex-end;
+        height: 467px;
+        width: 211px;
+        top: -100px;
+        left: 0px;
+        background: url(./exported----newsletter-offcourse/yellow__blank__circle.svg);
+        background-size: cover;
+    }
+
+    .container__of__third__component {
+        position: relative;
+        display: flex;
+        top: -125px;
+        height: 325px;
+        width: 600px;
+        background: #D4D5D9;
+    }
+
+    .description__with__image__block {
+        display: flex;
+        height: 325px;
+        width: 600px;
+        background: transparent;
+    }
+
+    .__image__block {
+        height: 325px;
+        width: 300px;
+        background: #D4D5D9;
+    }
+
+    .__description__block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 325px;
+        width: 300px;
+        background: #282D38;
+    }
+
+    .title__of__description__block {
+        text-align: center;
+    }
+    
+    .description__of__description__block {
+        text-align: center;
+    }
+
+    .read__more__button__border {
+
+        display: block;
+        display: flex;
+        justify-content: center;
+        height: 63px;
+        width: 145px;
+        background: #272727;
+        text-align: center;
+        text-decoration: none;
+        align-self: center;
+        
+        /* */
+
+        border: 1px solid white
+    }
+
+    .container__of__fourth__component {
+        position: relative;
+        display: flex;
+        top: -85px;
+        height: 260px;
+        width: 600px;
+    }
+
+    .three__blocks {
+        display: flex;
+        justify-content: space-between;
+        height: 260px;
+        width: 600px;
+    }
+
+    .one__of__three_blocks {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 260px;
+        width: 191px;
+        background: #CE6884;
+    }
+
+    .one__of__three__blocks__image__frame {
+        height: 180px;
+        width: 131px;
+        background: #D4D5D9;
+        align-self: center;
+    }
+
+    .name__of__article__in_one__of__the_three_block {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .container__of__fith__component {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        top: -50px;
+        height: 550px;
+        width: 600px;
+        /* background: green; */
+    }
+
+    .last__main__container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: 550px;
+        width: 600px;
+        /* background: blue; */
+    }
+
+    .description__and__header__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100px;
+        width: 600px;
+        /* background: red; */
+    }
+
+    .last__picture__frame {
+        height: 325px;
+        width: 480px;
+        align-self: center;
+        background:#D4D5D9;
+    }
+
+    .last__article__desc {
+        margin: 15px;
+    }
+
+    .last__circle {
+        position: absolute;
+        display: block;
+        height: 228px;
+        width: 398px;
+        bottom: 0px;
+        right: -0px;
+        background: url(./exported----newsletter-offcourse/last__circle.svg);
+        background-size: cover;
+    }
+     
+    .social__media__icon__container {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        bottom: 0px;
+        height: 70px;
+        width: 600px;
+        /* background: green; */
+    }
+
+    .social_desc_img_container {
+        display: flex;
+        height: 20px;
+        margin: 5px;
+        justify-content: center;
+        width: auto;
+    }
+
+    .social_icon {
+       margin: 5px;
+       align-self: center;
+    }
+    
+    .social__desc {
+        display: flex;
+        margin: 5px;
+        align-self: center;
+        text-decoration: none;
+        color: black;
+    }
+
+    .last__social__media__container {
+        position: relative;
+        display: flex;
+        width: auto;
+        height: 100%;
+        align-self: center;
+        /* background: red; */
+    }
+
+
+</style>
+<body>
+    
+    <div class="wrapper__">
+        <div class="main__container__itself">
+            <div class="light___green__circle__"></div>
+            <div class="container__of__first__component">
+                <div class="container__of__bird__and__header">
+                    <div class="bird__"></div>
+                    <h1 class="header__">The English Courier</h1>
+                </div>
+                <div class="container___of___image__board__and__headings">
+                    <div class="image__board"></div>
+                    <span class="breaking__text"></span>
+                    <span class="news__text"></span>
+                    <span class="dust__"></span>
+                </div>
+            
+            </div>
+
+            <div class="container__of__second__component">
+                <div class="container__with__h3__span__and__a__button">
+                    <h3 class="article__name">tytuł artykułu</h3>
+                <span class="short__description__of__article">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nihil, nesciunt quisquam excepturi aliquid, non aspernatur eligendi, dignissimos illo</span>
+                <a href="https:/www.google.pl"class="read__more__button">
+                    <p class="button_text">Read more</p>
+                </a>
+                </div>
+                <div class="circle__container">
+
+                    <div class="yellow__blank__circle"></div>
+
+                </div>
+            </div>
+
+            <div class="container__of__third__component">
+                <div class="information__block">
+                    <div class="description__with__image__block">
+                        <div class="__image__block"></div>
+                        <div class="__description__block">
+                            <h2 class="title__of__description__block">
+                                Lorem ipsum
+                            </h2>
+                            <span class="description__of__description__block">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui laboriosam quas necessitatibus nostrum.
+                            </span>
+                            <a href="https:/www.google.pl"class="read__more__button__border">
+                                <p class="button_text">Read more</p>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="container__of__fourth__component">
+                <div class="three__blocks">
+                    <div class="one__of__three_blocks">
+                        <div class="one__of__three__blocks__image__frame"></div>
+                        <h4 class="name__of__article__in_one__of__the_three_block">Tytuł artykułu</h4>
+                    </div>
+                    <div class="one__of__three_blocks">
+                        <div class="one__of__three__blocks__image__frame"></div>
+                        <h4 class="name__of__article__in_one__of__the_three_block">Tytuł artykułu</h4>
+                    </div>
+                    <div class="one__of__three_blocks">
+                        <div class="one__of__three__blocks__image__frame"></div>
+                        <h4 class="name__of__article__in_one__of__the_three_block">Tytuł artykułu</h4>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+            <div class="container__of__fith__component">
+                <div class="last__main__container">
+                   <div class="description__and__header__container">
+                       <h4 class="last__heading">tytuł artykułu</h4>
+                       <p class="one__of__last__article__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.?</p>
+                   </div>
+                   <div class="last__picture__frame"></div>
+                   <p class="last__article__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.?</p>
+                   <a href="https:/www.google.pl"class="read__more__button">
+                    <p class="button_text">Read more</p>
+                </a>
+                </div>
+            </div>
+
+            <div class="last__circle"></div>
+            <div class="social__media__icon__container">
+                <div class="last__social__media__container">
+
+                    <div class="social_desc_img_container">
+                        <img class="social_icon" src="./exported----newsletter-offcourse/fb.svg" alt="">    <a class="social__desc" href="">ofcenglish</a>
+                    </div>
+
+                <div class="social_desc_img_container">
+                    <img class="social_icon" src="./exported----newsletter-offcourse/web.svg" alt=""><a class="social__desc" href="">www.offcourse.app/courier</a>
+                </div>
+                <div class="social_desc_img_container">
+                    <img class="social_icon" src="./exported----newsletter-offcourse/ig.svg" alt=""><a class="social__desc" href="">ofcenglish</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
